@@ -1,0 +1,30 @@
+ALGORITHM algorithm_name
+VAR
+    set_declarations
+BEGIN
+    set_instructions
+END checkpoint_algo
+VAR
+ch : string;
+i,count,c2,c3: integer;
+BEGIN
+count = 0;
+A := 0;
+B := 0;
+
+REPEAT
+B := B + 1;
+UNTIL ( ch[B]= "." )
+FOR i from 0 to B step step do 
+IF ((ch [i] = "a") or (ch[i] = "A") or (ch[i] = "o") or (ch[i] = "O");
+count := count + 1 ;
+ELSE IF (ch[i] = " ") THEN 
+A := A + 1 ;
+END_IF
+END_FOR
+write ("the number of vowels is" + count );
+write ("the number of words is" + A );
+write("the length of sentence is" + B );
+END
+
+
